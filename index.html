@@ -108,7 +108,7 @@
                             плановых заданий.</p>
                     </li>
                 </ul>
-</div>
+</div></div>
         </section>
         <section class="section advantage-studio-work">
             <div class="conteiner">
@@ -398,12 +398,12 @@
             <h2 class="tex-sub">Подпишитесь на рассылку</h2>
             <div class="form-footer">
                 <form action="subscription">
-                <input type="text" name="name" autofocus id="name" placeholder="E-mail" />
+                <input type="text" name="name"  id="email-ft" placeholder="E-mail" />
             </form>
 
             <button class="btn-submit-ft" type="submit">Подписаться</button>
             <svg class="icon-send" width="24px" height="24px">
-                <use href="./icon/icon-send.svg">
+                <use href="./icon/sprite.svg#icon-send-new">
                 </use>
             </svg></div>
             
@@ -417,9 +417,9 @@
                 <form class="form" name="service order" action="#" autocomplete="off" novalidate>
                     <div class="form-field">
                         <label for="name" class="form-label" >Имя</label>
-                        <input type="text" class="form-input" name="name" autofocus id="name" />
-                        <svg class="icon-form" width="12px" height="12px">
-                            <use href="./icon/person-black-18dp -new-1.svg">
+                        <input type="text" class="form-input" name="name-client" autofocus id="name" />
+                        <svg class="icon-form" width="18px" height="18px">
+                            <use href="./icon/sprite.svg#icon-person-black">
 
                             </use>
                         </svg>
@@ -427,26 +427,29 @@
                     
                     <div class="form-field">
                         <label for="phone" class="form-label"> Телефон</label>
-                        <input type="tel" class="form-input" id="phone" name="phone" autofocus />
-                        <svg class="icon-form" width="12px" height="12px">
-                            <use href="./icon/email-black-18dp 1.svg">
-                        
+                        <input type="tel" class="form-input" id="phone" name="tel"  />
+                        <svg class="icon-form" width="18px" height="18px">
+                            <use href="./icon/sprite.svg#icon-phone-black">
                             </use>
                         </svg> 
                     </div>
                     
                     <div class="form-field">
                         <label for="email" class="form-label">Почта</label>
-                        <input type="email" class="form-input" id="email" name="email" autofocus />
+                        <input type="email" class="form-input" id="email" name="mail" />
+                    <svg class="icon-form" width="18px" height="18px">
+                        <use href="./icon/sprite.svg#icon-email-black">
+                        </use>
+                    </svg>
                     </div>
                     
                 <div class="form-field">
-                    <label for="comment " class="form-label">Kоментарий</label>
+                    <label for="comment" class="form-label">Kоментарий</label>
                     <textarea class="form-comment" name="comment" placeholder="Введите текст" id="comment" rows="10"></textarea>
                 </div>
                     
                 <div class="form-checkbox">
-                    <input type="checkbox" class="form-input checkbox" name="" id="policy">
+                    <input type="checkbox" class="form-input checkbox" name="policy" id="policy">
                     <span class="icon-checkbox"></span>
                     <label for="policy" class="form-label">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label>
 
